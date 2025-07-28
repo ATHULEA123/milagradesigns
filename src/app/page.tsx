@@ -162,7 +162,7 @@ export default function Home() {
           style={{ backgroundImage: `url('/images/hero.png')` }}
         >
           <div className="text-start  p-8 rounded-lg">
-            <h1 className="text-4xl lg:text-7xl   font-medium mb-4 lg:ml-20 mt-20">We Build Your <br />OWn Dream</h1>
+            <h1 className="text-4xl lg:text-7xl   font-medium mb-4 lg:ml-20 mt-20" data-aos="fade-up">We Build Your <br />OWn Dream</h1>
 
           </div>
         </div>

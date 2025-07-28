@@ -63,8 +63,8 @@ export default function Navbar() {
                             <a onClick={() => setIsOpen(false)} href="/" className="hover:text-[#C4910D]">Home</a>
                             <a onClick={() => setIsOpen(false)} href="#about" className="hover:text-[#C4910D]">About us</a>
                             <a onClick={() => setIsOpen(false)} href="/mainservice" className="hover:text-[#C4910D]">Packages</a>
-                            <a onClick={() => setIsOpen(false)} href="/maingallery" className="hover:text-[#C4910D]">Portfolio</a>
-                            <a onClick={() => setIsOpen(false)} href="#testimonial" className="hover:text-[#C4910D]">Gallery</a>
+                            <a onClick={() => setIsOpen(false)} href="/portfolio" className="hover:text-[#C4910D]">Portfolio</a>
+                            <a onClick={() => setIsOpen(false)} href="/gallery" className="hover:text-[#C4910D]">Gallery</a>
                             <a
                                 onClick={() => setIsOpen(false)}
                                 href="#Consultation"
