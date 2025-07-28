@@ -244,7 +244,7 @@ export default function Home() {
                 <h1 className="lg:text-2xl text-xl  font-medium">Office and commersial Design</h1>
                 <p className="lg:text-sm text-xs font-normal max-w-[550px]"> our team ensures exceptional quality and detail, transforming homes and commercial spaces into inspiring environments filled with style and purpose.</p>
                 <div className="flex lg:justify-end lg:mt-32 justify-center ">
-                  <button className="flex items-center font-normal gap-1 border bg-[#845607]  text-[#fff] border-[#C4910D] px-4 py-2 rounded-xl hover:bg-[#0792CE] hover:text-white mt-4">
+                  <button className="flex items-center font-normal gap-1 border bg-[#845607]  text-[#fff] border-[#C4910D] px-4 py-2 rounded-xl hover:bg-[#c4900d90] hover:text-white mt-4">
                     Contact Us <MdOutlineArrowForward />
                   </button>
                 </div>
@@ -298,9 +298,11 @@ export default function Home() {
               <div>
                 <Image src={projectthree} alt="Logo" width={700} height={50} className=" object-cover rounded-xl" />
                 <div className="flex lg:justify-end lg:mt-10 justify-center ">
-                  <button className="flex items-center font-normal gap-1 border bg-[#845607]  text-[#fff] border-[#C4910D] px-4 py-2 rounded-xl hover:bg-[#0792CE] hover:text-white mt-4">
-                    More Projects <MdOutlineArrowForward />
-                  </button>
+                 <Link href="/portfolio">
+  <button className="flex items-center font-normal gap-1 border bg-[#845607] text-white border-[#C4910D] px-6 py-2 rounded-xl hover:bg-[#c4900d90] hover:text-white mt-4">
+    More Projects<MdOutlineArrowForward />
+  </button>
+</Link>
                 </div>
               </div>
             </div>
@@ -349,9 +351,11 @@ export default function Home() {
 
         <div className="container">
           <div className="flex lg:justify-end lg:mt-10 justify-center ">
-            <button className="flex items-center font-normal gap-1 border bg-[#845607]  text-[#fff] border-[#C4910D] px-6 py-2 rounded-xl hover:bg-[#0792CE] hover:text-white mt-4">
-              More  <MdOutlineArrowForward />
-            </button>
+            <Link href="/gallery">
+  <button className="flex items-center font-normal gap-1 border bg-[#845607] text-white border-[#C4910D] px-6 py-2 rounded-xl hover:bg-[#c4900d90] hover:text-white mt-4">
+    More <MdOutlineArrowForward />
+  </button>
+</Link>
           </div>
         </div>
       </section>
@@ -367,9 +371,11 @@ export default function Home() {
                 From space planning and color selection to budget tips and design timelines, we’ve covered the essentials.
               </p>
               <div className="flex lg:justify-start justify-center lg:mt-10 mt-6">
-                <button className="flex items-center font-normal gap-1 border bg-[#845607]  text-[#fff] border-[#C4910D] px-6 py-2 rounded-tl-lg rounded-br-lg hover:bg-[#0792CE] hover:text-white">
-                  Call +91 9809584012
-                </button>
+               <a href="tel:+919809584012">
+  <button className="flex items-center font-normal gap-1 border bg-[#845607] text-[#fff] border-[#C4910D] px-6 py-2 rounded-tl-lg rounded-br-lg hover:bg-[#c4900d90] hover:text-white">
+    Call +91 9809584012
+  </button>
+</a>
               </div>
             </div>
 
